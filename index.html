@@ -9,7 +9,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <link rel="stylesheet" type="text/css" href="style.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-
+<script type="text/javascript" src="web.js"></script>
 </head>
 <body>
         <div class="jumbotron jumbotron-fluid"  style="background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://miro.medium.com/max/4092/1*rYCWrGsGdOXHeiJwPYti4w.png);
@@ -72,35 +72,59 @@
   
         <div class="row">
           <div class="col-md-4">
-            <div class="card mb-4 shadow-sm rounded">
-              <img class="hh rounded" src="https://static.toiimg.com/photo/65575325.cms" width="100%" height="100%"/>
+            <div  onmouseleave="hide('parent-div1')" onmouseover="mousehover('parent-div1')"  class="card mb-4 shadow-sm rounded" style="background-image:url(https://static.toiimg.com/photo/65575325.cms);
+            height:260px;  background-size: 100% 100%">
+              <div class="parent-div  text-center" id="parent-div1">
+                <button type="button" class="btn four">Click Me!</button>
+                <button type="button" class="btn four">Click Me!</button>
+            </div>
             </div>
           </div>
           <div class="col-md-4">
-              <div class="card mb-4 shadow-sm rounded">
-                <img class="hh rounded" src="https://www.technobuffalo.com/sites/technobuffalo.com/files/styles/large/public/field/image/2019/05/oneplus-7-pro-2.jpg?itok=85zfjao8" width="100%" height="100%"/>
+              <div  onmouseleave="hide('parent-div2')" onmouseover="mousehover('parent-div2')"  class="card mb-4 shadow-sm rounded" style="background-image:url(https://www.technobuffalo.com/sites/technobuffalo.com/files/styles/large/public/field/image/2019/05/oneplus-7-pro-2.jpg?itok=85zfjao8);
+              height:260px;  background-size: 100% 100%">
+                <div class="parent-div  text-center" id="parent-div2">
+                  <button type="button"  class="btn four">Click Me!</button>
+                  <button type="button"  class="btn four">Click Me!</button>
+              </div>
               </div>
             </div>
             <div class="col-md-4">
-                <div class="card mb-4 shadow-sm rounded">
-                  <img class="hh rounded" src="https://static.toiimg.com/thumb/msid-66089039,width-800,resizemode-4/66089039.jpg" width="100%" height="100%"/>
+                <div  onmouseleave="hide('parent-div3')" onmouseover="mousehover('parent-div3')"  class="card mb-4 shadow-sm rounded"  style="background-image:url(https://static.toiimg.com/thumb/msid-66089039,width-800,resizemode-4/66089039.jpg);
+                height:260px;  background-size: 100% 100%;">
+                  <div class="parent-div  text-center" id="parent-div3">
+                    <button type="button"  class="btn four">Click Me!</button>
+                    <button type="button"  class="btn four">Click Me!</button>
+                </div>  
                 </div>
               </div>
   
               <div class="col-md-4">
-                  <div class="card mb-4 shadow-sm rounded">
-                    <img class="hh rounded" src="https://www.androidcentral.com/sites/androidcentral.com/files/styles/large_wm_brw/public/article_images/2019/03/galaxy-s10-plus-front-flat-table.jpg?itok=RWgOlXLt" width="100%" height="100%"/>
-
+                  <div  onmouseleave="hide('parent-div4');" onmouseover="mousehover('parent-div4')" class="card mb-4 shadow-sm rounded" style="background-image:url(https://www.androidcentral.com/sites/androidcentral.com/files/styles/large_wm_brw/public/article_images/2019/03/galaxy-s10-plus-front-flat-table.jpg?itok=RWgOlXLt);
+                  height:260px;  background-size: 100% 100%;">
+                    <div class="parent-div  text-center" id="parent-div4">
+                      <button type="button"  class="btn four">Click Me!</button>
+                      <button type="button"  class="btn four">Click Me!</button>
+                  </div>
                   </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card mb-4 shadow-sm rounded">
-                      <img class="hh rounded" src="https://tubikstudio.com/wp-content/uploads/2016/05/tubikstudio-ui-app-design-1.png" width="100%" height="100%"/>
+                    <div   onmouseleave="hide('parent-div5')" onmouseover="mousehover('parent-div5')"  class="card mb-4 shadow-sm rounded" style="background-image:url(https://tubikstudio.com/wp-content/uploads/2016/05/tubikstudio-ui-app-design-1.png);
+                    height:260px;  background-size: 100% 100%">
+                      <div class="parent-div  text-center" id="parent-div5">
+                        <button type="button"  class="btn four">Click Me!</button>
+                        <button type="button" class="btn four">Click Me!</button>
+                    </div>
                     </div>
                   </div>
                   <div class="col-md-4">
-                      <div class="card mb-4 shadow-sm rounded">
-                        <img class="hh rounded" src="https://www.businessinsider.in/photo/70675951/htcs-wildfire-x-launched-by-lava-phone-maker-in-india-these-are-the-prices-and-specs.jpg?94914" width="100%" height="100%"/>
+                      <div onmouseleave="hide('parent-div6')" onmouseover="mousehover('parent-div6')"  class="card mb-4 shadow-sm rounded" style="background-image:url(https://www.businessinsider.in/photo/70675951/htcs-wildfire-x-launched-by-lava-phone-maker-in-india-these-are-the-prices-and-specs.jpg?94914);
+                        height:260px;  background-size: 100% 100%">
+                        <div class="parent-div  text-center" id="parent-div6">
+                            <button type="button"  class="btn four">Click Me!</button>
+                            <button type="button"  class="btn four">Click Me!</button>
+                        </div>
+                        
                       </div>
                     </div> 
         </div>
